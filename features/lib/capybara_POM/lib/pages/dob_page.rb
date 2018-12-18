@@ -12,15 +12,15 @@ class DOBpage
   end
 
   def input_day_in_dob
-    fill_in(DAY, :with => 22)
+    fill_in(DAY, :with => 27)
   end
 
   def input_month_in_dob
-    fill_in(MONTH, :with => "April")
+    fill_in(MONTH, :with => "May")
   end
 
   def input_year_in_dob
-    fill_in(YEAR, :with => 1990)
+    fill_in(YEAR, :with => 1991)
   end
 
   def click_continue_button

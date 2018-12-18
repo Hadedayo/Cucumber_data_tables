@@ -1,9 +1,7 @@
 Feature: User login
-  as I user
-  I want to be able to sign up
-  and login to the bbc site
+  As a user I want to be able to sign up and login to the bbc site
 
-  @bbc_scenario
+  @bbc
   Scenario Outline: If I input incorrect password details I will receive the correct error message
     Given I am on the BBC home page
     And I move to the sign in page
